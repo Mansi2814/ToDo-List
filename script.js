@@ -44,4 +44,4 @@ function clearstorage(){
     update()
 }
 
-setTimeout(() => {update()},0)
+setTimeout(function() {update()},0)
