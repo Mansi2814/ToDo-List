@@ -38,12 +38,10 @@ function del(val){
     update()
 }
 
-function view(){
-    update()
-}
-
 function clearstorage(){
     console.log("clearing")
     localStorage.clear()
     update()
 }
+
+setTimeout(() => {update()},0)
